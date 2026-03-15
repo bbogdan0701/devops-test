@@ -1,11 +1,7 @@
 #include <stdio.h>
-
-function main(){
-
-int a = 2;
-int b = 3;
-int c = a + b;
-printf("Rezultat je: ", &c);
-
-return 0;
+int main() {
+ int a = 5;
+ int b = 3;
+ printf("Zbir brojeva je: %d\n", a + b);
+ return 0;
 }
